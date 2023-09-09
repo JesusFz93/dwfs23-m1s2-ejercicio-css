@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: black;
+  color: white;
+}
+
+h1 {
+  text-align: center;
+}
+
+main {
+  /* background-color: rgb(253, 180, 180); */
+  /* text-align: center;
+  padding: 20px 0px; */
+
+  text-align: center;
+}
+
+.caja {
+  border: 1px solid black;
+  width: 300px;
+  height: 300px;
+  display: inline-block;
+  /* display: inline-block; */
+}
+
+.contenedor {
+  background-color: beige;
+  height: 1400px;
+}
+
+.cajita {
+  background-color: brown;
+  width: 300px;
+  height: 300px;
+  display: inline-block;
+  position: static;
+  left: 200px;
+  top: 200px;
+}
