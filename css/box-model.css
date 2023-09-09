@@ -1,0 +1,49 @@
+.encabezado {
+  background-color: aquamarine;
+  width: 200px;
+  height: 200px;
+
+  margin: 50px;
+  border: 1px solid black;
+  padding: 50px;
+}
+
+.principal {
+  background-color: rgb(218, 182, 252);
+}
+
+.principal__contenedor {
+  margin: 0px 180px 0 180px; /* arriba derecha abajo izquierda */
+  margin: 0px 180px; /* arriba-abajo izquierda-derecha esto tambien aplica para padding*/
+  /* margin-top: 0px;
+  margin-right: 180px;
+  margin-bottom: 0px;
+  margin-left: 180px; */
+}
+
+.seccion-hero {
+  border: 1px solid black;
+  height: 700px;
+
+  /* background-image: url("../assets/images/hero.jpg"); */
+  background-image: url("https://fondosmil.com/fondo/29366.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  color: white;
+}
+
+.parrafo__principal {
+  font-size: 30px;
+  font-weight: bold;
+  font-family: Tahoma, sans-serif;
+  font-style: italic;
+}
+
+@media (min-width: 768px) {
+  .parrafo__principal {
+    font-style: normal;
+    color: blue;
+  }
+}
