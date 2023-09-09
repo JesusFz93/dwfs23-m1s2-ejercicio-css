@@ -1,0 +1,43 @@
+.encabezado {
+  background-color: black;
+  width: 500px;
+  height: 200px;
+
+  /* border-color: green;
+  border-width: 20px;
+  border-style: solid; */
+  border: 20px green solid;
+  border-radius: 100px;
+  color: white;
+  text-align: center;
+
+  overflow: hidden;
+}
+
+.titulo-principal {
+  color: red;
+}
+
+h2 {
+  color: orange;
+}
+
+.titulos-secundarios {
+  color: green;
+}
+
+/*sadsadjsad*/
+
+/*
+sadsadsa
+sadasd
+sadasd
+*/
+
+/* #titulo-secundario {
+  color: green;
+}
+
+#titulo-secundario2 {
+  color: green;
+} */
