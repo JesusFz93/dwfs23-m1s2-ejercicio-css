@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./css/1-etiquetas.css" />
+    <!-- <style>
+      body {
+        color: green;
+      }
+    </style> -->
+  </head>
+  <body>
+    <main>
+      <h2>Formularios</h2>
+      <form>
+        <label for="nombre">Nombre</label>
+        <input
+          id="nombre"
+          name="nombre"
+          type="text"
+          value=""
+          placeholder="Jesus Fernandez"
+        />
+        <label for="descripcion">Danos una breve informacion de ti</label>
+        <textarea
+          name="descripcion"
+          id="descripcion"
+          cols="30"
+          rows="10"
+        ></textarea>
+        <label for="vacante">Vacantes disponibles</label>
+        <select name="vacante" id="vacante">
+          <option value="desarrollador">Desarrollador</option>
+          <option value="diseniador">Diseniador</option>
+          <option value="tester">Tester</option>
+        </select>
+        <button type="submit">Enviar formulario</button>
+        <button type="button">Limpiar</button>
+      </form>
+    </main>
+    <section>
+      <h2>Multimedia</h2>
+      <audio src="./assets/sounds/music.wav" controls></audio>
+      <video src="./assets/videos/UCamp.mp4" controls></video>
+      <img src="./assets/images/SpotifyContenido.png" alt="Spotify logo" />
+      <img
+        src="https://img.freepik.com/vector-gratis/lindo-personaje-dibujos-animados-perro-sentado_1308-135528.jpg"
+        alt="Perro"
+      />
+    </section>
+    <!-- <section>
+      <iframe
+        id="inlineFrameExample"
+        title="Inline Frame Example"
+        width="300"
+        height="200"
+        src="https://www.youtube.com/"
+      >
+      </iframe>
+    </section> -->
+    <script src="./js/codigo.js"></script>
+  </body>
+</html>
